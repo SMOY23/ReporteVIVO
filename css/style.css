@@ -1,0 +1,250 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+    color: #fff;
+}
+
+html {
+    background-color: black;
+}
+
+img {
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-menu a {
+    font-size: 4rem;
+    padding-bottom: 50px;
+}
+
+a:hover {
+    color: blue;
+}
+
+.tarjeta-img {
+    height: 300px;
+    width: 500px;
+}
+
+.main-update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    margin: 20px;
+}
+
+.index-h3 {
+    font-size: 2rem;
+}
+
+.form-container table {
+    background-color: #fff;
+    color: black;
+}
+
+.main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.img-main {
+    height: 200px;
+    width: auto;
+}
+
+#time {
+    display: inline-block;
+    margin: 5px;
+}
+
+#pagototal {
+    padding: 10px;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+}
+
+button {
+    margin: 5px;
+}
+
+.form-container {
+    text-align: center;
+}
+
+.fas {
+    font-size: 3rem;
+}
+
+.code-main {
+    margin: 90px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+table {
+    font-size: .8rem;
+    border: none;
+    overflow-x: auto;
+    background-color: #d1e7dd;
+    margin: 10px;
+    padding: 10px;
+}
+
+.table-fixed tbody {
+    height: 70vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+thead tr {
+    display: inline;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed thead>tr>th {
+    float: left;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 188px;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-tiac {
+    margin: 40px;
+    height: 500px;
+    width: 500px;
+    padding: 100px;
+}
+
+.main-tiac {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    height: fit-content;
+}
+
+.main-credit {
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    margin: 45px;
+    width: 550px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    color: #039;
+}
+
+td {
+    padding: 8px;
+    background: #e8edff;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+}
+
+tr:hover td {
+    background: #d0dafd;
+    color: #339;
+}
+
+.editar {
+    color: blue;
+    cursor: pointer;
+}
+
+#contenedorForm {
+    margin-left: 45px;
+    font-size: 12px;
+}
+
+.boton {
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    background-color: #b9c9fe;
+    font-weight: bold;
+}
+
+
+/*
+@media(max-width: 720px){
+    a{
+        color: gray;
+    }
+}
+*/
